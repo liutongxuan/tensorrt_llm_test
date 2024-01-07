@@ -2,7 +2,7 @@ tensorrt_llm使用流程：
 
 1. 使用Docker Image：tongxuanliu/dev:tensorrtllm ，已安装tensorrt_llm v0.7.1版本及相关包
 
-2. 进入Docker后，手动将本代码库中的model_runner.py，覆盖/usr/local/lib/python3.10/dist-packages/tensorrt_llm/runtime/model_runner.py
+2. 进入Docker后，手动将本代码库中的model_runner.py，覆盖/usr/local/lib/python3.10/dist-packages/tensorrt_llm/runtime/model_runner.py （修复v0.7.1版本中的bug）
 
 3. 下载TensorRT-LLM代码：
 
